@@ -50,7 +50,7 @@ Validar o hardware e a performance em tempo real. O controlador "acha" que está
 
 ### 📂 Estrutura de Arquivos
 
-Plaintext  
+```Plaintext  
 estudo_MIL_SIL_HIL/  
 ├ README.md                <-- Este documento  
 ├ MIL/  
@@ -65,8 +65,9 @@ estudo_MIL_SIL_HIL/
 └ HIL/  
     ├ firmware/            <-- Pasta do código Arduino (.ino) e do fonte do controlador efetivo  
     │   ├ firmware.ino  
-    │   ─ LogicaControlador.h <-- Fonte Única da Verdade (C++ Header)  
+    │   └ LogicaControlador.h <-- Fonte Única da Verdade (C++ Header)  
     └ hil.py               <-- Script de sincronismo Tempo Real PC <-> Arduino  
+```
 
 ### 🚀 Como Executar
 
