@@ -13,6 +13,17 @@ REQUISITOS:
     - Arduino com firmware.ino carregado.
     - Biblioteca: pip install pyserial pandas plotly
     - Ajustar a variável PORTA_SERIAL para a sua porta COM.
+
+PRÉ-REQUISITOS:
+    - Python versão: 3.8 ou superior (Recomendado 3.10+)
+    - Bibliotecas externas: pandas, numpy, plotly
+
+INSTRUÇÕES DE INSTALAÇÃO:
+    No terminal, execute:
+    $ pip install serial pandas
+
+COMO EXECUTAR:
+    $ python hil.py    
 =============================================================================
 """
 

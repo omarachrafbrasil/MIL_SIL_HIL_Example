@@ -17,6 +17,15 @@ PRÉ-REQUISITOS:
       simulaçãol. No grafico inferior arraste o retangulo vertical branco da
       esquerda e o da direita para delimitar a window de tempo desejada para
       poder visualizar detalhes em curto período de tempo.
+    - Python versão: 3.8 ou superior (Recomendado 3.10+)
+    - Bibliotecas externas: pandas, numpy, plotly
+
+INSTRUÇÕES DE INSTALAÇÃO:
+    No terminal, execute:
+    $ pip install pandas numpy plotly
+
+COMO EXECUTAR:
+    $ python sil.py      
 =============================================================================
 """
 
